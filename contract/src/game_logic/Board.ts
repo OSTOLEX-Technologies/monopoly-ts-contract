@@ -1,20 +1,20 @@
 import {Player} from "./Player";
-import {CommunityChestCard} from "./Cards/CommunityChestCard";
-import {ChanceCard} from "./Cards/ChanceCard";
-import {Tile} from "./Tiles/Tile";
+import {CommunityChestCard} from "./cards/CommunityChestCard";
+import {ChanceCard} from "./cards/ChanceCard";
+import {Tile} from "./tiles/Tile";
 import {
   getChanceCards,
   getCommunityChestCards,
   tokens
 } from "./GameConfig";
 import {Bank} from "./Bank";
-import {Action} from "./Actions/Action";
+import {Action} from "./actions/Action";
 import {getPlayerById, throwDice} from "./Utils";
-import {ErrorAction} from "./Actions/ErrorAction";
-import {MoveAction} from "./Actions/MoveAction";
-import {GetOutOfJailAction} from "./Actions/GetOutOfJailAction";
-import {GoAction} from "./Actions/GoAction";
-import {DeclareBankruptcyAction} from "./Actions/DeclareBankruptcyAction";
+import {ErrorAction} from "./actions/ErrorAction";
+import {MoveAction} from "./actions/MoveAction";
+import {GetOutOfJailAction} from "./actions/GetOutOfJailAction";
+import {GoAction} from "./actions/GoAction";
+import {DeclareBankruptcyAction} from "./actions/DeclareBankruptcyAction";
 
 export class Board {
   public tokens: ReadonlyArray<{ name: string }>;
