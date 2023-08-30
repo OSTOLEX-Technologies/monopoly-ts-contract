@@ -1,10 +1,10 @@
 import {Action} from "./Action";
 import {Board} from "../Board";
 import {getPlayerById} from "../Utils";
-import {CommunityChestTile} from "../Tiles/CommunityChestTile";
-import {ChanceTile} from "../Tiles/ChanceTile";
-import {TaxTile} from "../Tiles/TaxTile";
-import {JailTile} from "../Tiles/JailTile";
+import {CommunityChestTile} from "../tiles/CommunityChestTile";
+import {ChanceTile} from "../tiles/ChanceTile";
+import {TaxTile} from "../tiles/TaxTile";
+import {JailTile} from "../tiles/JailTile";
 import {GoToJailAction} from "./GoToJailAction";
 
 export class MoveAction extends Action {

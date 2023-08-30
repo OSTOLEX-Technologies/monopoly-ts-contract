@@ -1,11 +1,11 @@
-import {Tile, TileType} from "./Tiles/Tile";
+import {Tile, TileType} from "./tiles/Tile";
 import {Player} from "./Player";
-import {PropertyCard} from "./Cards/PropertyCard";
-import {RailroadsCard} from "./Cards/RailroadsCard";
-import {UtilitiesCard} from "./Cards/UtilitiesCard";
+import {PropertyCard} from "./cards/PropertyCard";
+import {RailroadsCard} from "./cards/RailroadsCard";
+import {UtilitiesCard} from "./cards/UtilitiesCard";
 import {getPropertyCards, getRailroadsCards, getUtilitiesCards} from "./GameConfig";
 import {getPlayerById} from "./Utils";
-import {Card, CardType} from "./Cards/Card";
+import {Card, CardType} from "./cards/Card";
 
 export class Bank {
   private tiles: Array<Tile>;

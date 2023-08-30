@@ -1,11 +1,11 @@
 import { NearBindgen, NearContract, near, call, view, Vector } from 'near-sdk-js';
-import { Game } from './game';
+import { Game } from './GameData';
 
 @NearBindgen
 class GameContract extends NearContract {
   greeting: string;
   games: Game[]
-  
+
   constructor({message="Hello"}:{message: string}) {
     super();
     this.greeting = message;

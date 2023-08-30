@@ -1,5 +1,4 @@
-import {Player} from "./player";
-import {PieceColor} from "../constants";
+import {Player} from "./Player";
 
 export function throwDice() {
   return [
@@ -23,18 +22,4 @@ export function getPlayerById(playerId: string, players: Array<Player>): Player 
   }
 
   throw new Error("Player with id " + playerId + " not found");
-}
-
-export function getPieceColor(color: string) {
-  switch (color) {
-    case "red": return PieceColor.Red;
-    case "blue": return PieceColor.Blue;
-    case "orange": return PieceColor.Orange;
-    case "green": return PieceColor.Green;
-    case "purple": return PieceColor.Purple;
-    case "pink": return PieceColor.Pink;
-    case "yellow": return PieceColor.Yellow;
-    case "navy": return PieceColor.Navyblue;
-    default: return PieceColor.Red;
-  }
 }

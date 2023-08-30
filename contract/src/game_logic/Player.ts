@@ -1,10 +1,10 @@
-import {PropertyCard} from "./cards/property_card";
-import {RailroadsCard} from "./cards/railroads_card";
-import {UtilitiesCard} from "./cards/utilities_card";
-import {ChanceCard} from "./cards/chance_card";
-import {CommunityChestCard} from "./cards/community_chest_card";
-import {Card} from "./cards/card";
-import {TileType} from "./tiles/tile";
+import {PropertyCard} from "./cards/PropertyCard";
+import {RailroadsCard} from "./cards/RailroadsCard";
+import {UtilitiesCard} from "./cards/UtilitiesCard";
+import {ChanceCard} from "./cards/ChanceCard";
+import {CommunityChestCard} from "./cards/CommunityChestCard";
+import {Card} from "./cards/Card";
+import {TileType} from "./tiles/Tile";
 
 export class Player {
   public readonly id: string;
