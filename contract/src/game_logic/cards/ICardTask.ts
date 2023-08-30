@@ -1,4 +1,4 @@
-import {Action} from "../Actions/Action";
+import {Action} from "../actions/Action";
 import {Player} from "../Player";
 
 export interface ICardTask {
